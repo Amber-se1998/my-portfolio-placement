@@ -1,1 +1,154 @@
-https://g7mwh89j5ti5nnua52equh.codia.website
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+import React from "react";
+import "./index.css";
+
+export default function Main() {
+  return (
+    <div className="main-container">
+      <div className="header">
+        <div className="navigation">
+          <div className="wordmark">
+            <div className="portfolio">
+              <span className="amber">
+                AMBER’S
+                <br />
+              </span>
+              <span className="portfolio-1">Portfolio</span>
+            </div>
+          </div>
+          <div className="lockup">
+            <span className="collection">整理收集作品專用網頁.</span>
+            <div className="links">
+              <span className="about">
+                關於
+                <br />
+                About
+              </span>
+              <div className="freelance-projects">
+                <span className="freelance-projects-2">
+                  設計接案
+                  <br />
+                </span>
+                <span className="freelance-projects-3">freelance projects</span>
+              </div>
+              <div className="contact-section">
+                <span className="contact-section-4">
+                  聯絡
+                  <br />
+                </span>
+                <span className="contact-section-5">Contact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="decorative-border" />
+      </div>
+      <div className="main-section">
+        <div className="cta-section" />
+        <div className="about-section">
+          <div className="button-section">
+            <div className="background-section" />
+            <span className="shop-now-section">About me</span>
+          </div>
+          <div className="inner-content-section">
+            <span className="work-experience-section">
+              在公司中負責獨立設計工作，需自行控管設計進度並配合多檔期活動時程。
+              <br />
+              <br />
+              除日常的電商專案與新品資訊設計外，也有協助公司文創手繪小物的商品化，與行銷團隊討論商品尺寸、結構與設計方向，完成相關設計規劃實施。
+              <br />
+              <br />
+              工作流程上，若公司允許，習慣資訊整頓並建立個別商品視覺與資訊素材雲端化，使行銷與電商單位能快速存取與使用，提升素材使用效率，減少設計上的重工率。
+              <br />
+              <br />
+              熟悉 Illustrator、Photoshop、After Effects、SketchUp、Canva
+              等設計工具，並能依專案需求學習與應用新工具。工作時偏重理性與結構，重視設計的可執行性與實務需求，並能與不同角色進行必要溝通，以完成設計任務。
+            </span>
+          </div>
+        </div>
+        <div className="personal-projects-section" />
+        <div className="work-history-section">
+          <div className="products">
+            <div className="product-grid">
+              <div className="image" />
+              <div className="text">
+                <span className="floral-aperitif">
+                  A delicate and floral aperitif with notes of lavender and
+                  chamomile.
+                </span>
+                <div className="find-near-you">
+                  <span className="find-near-you-6">Find near you</span>
+                </div>
+              </div>
+            </div>
+            <div className="product-grid-7">
+              <div className="image-8">
+                <div className="text-content">
+                  <span className="lifestyle-aesthetic">瀚加生活美學</span>
+                </div>
+              </div>
+              <div className="text-9">
+                <span className="spiced-aperitif">
+                  A bold, spiced aperitif featuring cardamom, ginger, and
+                  cinnamon.
+                </span>
+                <div className="find-near-you-a">
+                  <span className="find-near-you-b">Find near you</span>
+                </div>
+              </div>
+            </div>
+            <div className="product-grid-c">
+              <div className="image-d" />
+              <div className="text-e">
+                <span className="vibrant-citrus-aperitif">
+                  A refreshing and vibrant aperitif with bright citrus notes.
+                </span>
+                <div className="find-near-you-f">
+                  <span className="find-near-you-10">Find near you</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="stocklist-section">
+          <div className="text-content-11">
+            <span className="refined-veloce-taste">
+              Experience the refined taste of Véloce. Visit our premium
+              stockists for your next alcohol-free aperitif.
+            </span>
+          </div>
+          <div className="image-12" />
+        </div>
+      </div>
+      <div className="footer">
+        <div className="text-content-13">
+          <div className="links-14">
+            <div className="find-stockists">
+              <span className="find-stockists-15">Find Stockists</span>
+            </div>
+            <div className="about-16">
+              <span className="about-17">About</span>
+            </div>
+          </div>
+          <div className="contact-info">
+            <span className="contact-info-18">(646) 555-4567 </span>
+            <span className="contact-info-19">hello@figma.com</span>
+          </div>
+        </div>
+        <div className="wordmark-and-rights">
+          <span className="wordmark-and-rights-1a">Véloce</span>
+          <span className="wordmark-and-rights-1b">
+            company name© 2025 All Rights Reserved
+          </span>
+        </div>
+        <div className="decorative-border-1c" />
+      </div>
+    </div>
+  );
+}
